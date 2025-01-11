@@ -1,25 +1,3 @@
-/* @media (max-width:1199.5px){
-  h1{
-    font-size: 3.75rem;
-  }
-  h2{
-    font-size: 2.1875rem;
-  }
-  h3{
-    font-size: 1.875rem;
-  }
-  h5{
-    font-size: 1.0625rem;
-  }
-}
-
-
- */
-
-
-
-
-
 @media screen and (max-width:967px){
     .header-scrolled{
         height: auto;
@@ -29,9 +7,9 @@
     }
 
     .header-wrapper .menu-navbar-nav{
-        background-color: var(--primary-text); 
+        /* background-color: var(--primary-text);  */
         padding-bottom: 10px;
-       width: 20%;
+       width: 30%;
        display: flex;
        /* margin-left: 600px; */
        
@@ -40,6 +18,74 @@
        margin-top: 10px;
        
     }
+    .header-wrapper .navbar-toggler-icon {
+      color: #fc5aa1;
+    }
+    
+    .banner-wrapper .banner-box{
+      width: 90%;
+    }
+    .banner-wrapper .auto-type{
+       top: 232%;
+    }
+    .banner-wrapper .img-riya{
+      width: 60%;
+    }
+
+    .about-wrapper .about-box{
+      width: 90%;
+    }
+    .skill-wrapper {
+      width: 90%;
+    }
+    .skill-box{
+      width: 90%;
+    }
+    
+    .skill-icon i {
+      margin-left: -30px;
+      padding-right: 0;
+      font-size: 20px;
+    }
+    .overlay,overlay1,overlay2,overlay3,overlay4,overlay5,overlay6{
+      display: none;
+    }
+    .img-box{
+      width: 35px !important;
+      margin-left: -45px;
+    }
+    .skill-wrapper .skill-box1{
+      display: none;
+    }
+    .portfolio-wrapper .container h2::after {
+      display: none;
+    }
+    .portfolio-wrapper .container h2 {
+      padding: 0;
+    }
+    .portfolio-1{
+      padding-left: 96px;
+    }
+    .skill-wrapper .container h2::after {
+      display: none;
+    }
+    .about-wrapper .container h2::after {
+      display: none;
+    }
+    .contact-wrapper .container h2::after {
+      display: none;
+    }
+    .box-card{
+      margin-left: 60px;
+    }
+    .iformation {
+      padding-left: 0;
+        padding-top: 20px;
+    }
+    .links{
+      padding-left: 141px;
+    }
+
 }
 
 
